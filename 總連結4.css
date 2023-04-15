@@ -1,6 +1,6 @@
 *{
     padding:0;
-    maring:0;
+    margin:0;
 }
 .oo{
     color: white;
@@ -254,4 +254,23 @@
     background-color: rgba(213, 149, 255, 0.966);
     transition: 1s;
 }
+
+.oldweb{
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid rgb(255, 31, 154);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 0 3px #ffa0ad, 0 0 1px #ff9999e7;
+}
+
+.oldweb:hover{
+    background-color: rgba(255, 15, 15, 0.966);
+    transition: 1s;
+}
+
 
