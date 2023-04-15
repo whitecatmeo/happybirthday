@@ -1,0 +1,75 @@
+:root {
+    font-size: 20px;
+    font-family: Helvetica
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    perspective: 30rem;
+}
+
+.love > div {
+    color: white;
+}
+
+.love > div {
+    display: block;
+    height: 7rem;
+    font-size: 4rem;
+    overflow: hidden;
+}
+
+.love > div > span {
+    display: block;
+    height: 7rem;
+    font-weight: bold;
+    letter-spacing: -.2rem;
+    text-align: center;
+    transition: .3s transform ease-in-out;
+}
+
+.love:hover > div > span {
+    transform: translateY(-100%);
+
+}
+
+.love > div:nth-child(1) {
+    background-color: rgba(0, 0, 0, .2);
+    transform: rotateX(30deg);
+}
+
+.love > div:nth-child(2) {
+    background-color: rgba(0, 0, 0, .5);
+    transform: translateY(-.5rem) rotateX(-30deg);
+}
+
+.love > div:nth-child(3) {
+    background-color: rgba(0, 0, 0, .2);
+    transform: translateY(-1rem) rotateX(30deg);
+}
+
+.love > div:nth-child(4) {
+    background-color: rgba(0, 0, 0, .5);
+    transform: translateY(-1.5rem) rotateX(-30deg);
+}
+
+.ll{
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    border:1px solid rgb(255, 236, 152);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 0 3px #fffc37, 0 0 1px #fff563;
+}
+
+.ll:hover{
+    background-color: rgb(255, 235, 52);
+    transition: 1s;
+}

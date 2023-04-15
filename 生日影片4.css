@@ -1,0 +1,42 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.pp{
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid rgb(253, 154, 224);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 0 3px #ff36d3, 0 0 1px #fc048c;
+}
+
+.pp:hover{
+    background-color: rgb(255, 111, 207);
+    transition: 1s;
+}
+
+
+.yy{
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid rgb(255, 142, 236);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 0 3px #eda4fc, 0 0 1px #fc04db;
+}
+
+.yy:hover{
+    background-color: rgb(255, 184, 243);
+    transition: 1s;
+}
